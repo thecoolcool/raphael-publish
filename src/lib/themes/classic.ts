@@ -1,11 +1,6 @@
-export interface Theme {
-  id: string;
-  name: string;
-  description: string;
-  styles: Record<string, string>;
-}
+import type { Theme } from './types';
 
-export const THEMES: Theme[] = [
+export const classicThemes: Theme[] = [
   {
     id: 'apple',
     name: 'Mac',
